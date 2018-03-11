@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.arisht.roughpad.MainActivity">
+
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="100"
+        android:title="save"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        android:title="delete"
+        android:icon="@drawable/del"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/undo"
+        android:orderInCategory="100"
+        android:title="undo"
+        android:icon="@drawable/undo"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/redo"
+        android:orderInCategory="100"
+        android:title="redo"
+        android:icon="@drawable/redo"
+        android:showAsAction="always" />
+</menu>
